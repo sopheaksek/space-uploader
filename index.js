@@ -43,7 +43,7 @@ _.post('/upload', async (ctx) => {
     } 
     const dir = hash.substring(0,2);
     var params = {
-        Bucket: setting.space_bucket,
+        Bucket: setting.bucket,
         Key: `${dir}/${hash}.${ext}`,
         ContentEncoding: 'base64',
         ContentType: metadata,
