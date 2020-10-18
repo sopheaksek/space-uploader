@@ -5,5 +5,7 @@ module.exports = {
   access_key: process.env.SPACE_ACCESS_KEY,
   secret_key: process.env.SPACE_SECRET_KEY,
   url: process.env.UPLOAD_URL,
-  bucket: process.env.SPACE_BUCKET
+  bucket: process.env.SPACE_BUCKET,
+  allowed_extensions: process.env.ALLOWED_EXTENSIONS,
+  password: process.env.UPLOAD_PASSWORD
 }
